@@ -1,0 +1,110 @@
+body{
+    font-family: 'Climate Crisis', cursive;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    letter-spacing: 1vw;;
+}
+
+.container{
+    margin-top: 10vh;;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    letter-spacing: 1vw;
+}
+
+.title h1{
+    font-size: 180px;
+    font-style: italic;
+    
+}
+
+.title h2{
+    font-size: 75px;
+}
+
+.houses{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gryffindor{
+    margin: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 100px;
+    width: 25%;
+    text-align: center;
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.slytherin{
+    margin: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 100px;
+    width: 25%;
+    text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+    color: black;
+}
+
+.hufflepuff{
+    margin: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 100px;
+    width: 25%;
+    text-align: center;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+.ravenclaw{
+    margin: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 100px;
+    width: 25%;
+    text-align: center;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+
+
+
+.houses p{
+    font-style: italic;
+}
