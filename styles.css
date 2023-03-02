@@ -9,6 +9,7 @@ body{
 p{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
+    text-align: center;
 }
 
 h2{
@@ -18,7 +19,9 @@ h2{
 }
 
 h3{
-    letter-spacing: 1vw;;
+    letter-spacing: 1vw;
+    font-size: 30px;
+
 }
 
 .container{
@@ -30,11 +33,13 @@ h3{
 .title{
     text-align: center;
     letter-spacing: 1vw;
+    
 }
 
 .title h1{
     font-size: 150px;
     font-style: italic;
+    
     
 }
 
@@ -108,8 +113,18 @@ h3{
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 }
 
+.menu{
+    text-align: right;
+    padding-right: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 25px;
+    font-style: italic;
+}
 
-
+.menu a{
+    color:#F37335;
+}
 
 .houses p{
     font-style: italic;
@@ -123,4 +138,54 @@ a{
 a:hover{
     color:white;
     text-decoration: none;
+}
+
+img{
+    width: 100%;
+    border-radius: 12px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.characters{
+    max-width: 500vh;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card{
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10vh;
+}
+
+.tag{
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: 1vh;
+  }
+  
+.card p {
+    font-size: 14px;
+    color: black;
+    line-height: 150%;
+}
+  
+.card-details {
+    padding: 16px 8px 8px 8px;
 }
